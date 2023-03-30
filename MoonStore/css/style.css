@@ -47,13 +47,41 @@ a {
    animation-duration: 1s;
 }
 
+.login{
+   display: flex;
+   justify-content: flex-end;
+   background: #5F7FD9;
+   text-align: right;
+   padding: 3rem;
+}
+
+.login a{
+   font-size: 1.5rem;
+   margin: 1rem;
+   filter: drop-shadow(0 0 0.1rem black);
+}
+
+.login a::after{
+   content: "";
+   width: 0px;
+   height: 2px;
+   position: relative;
+   display: block;
+   background: #F7F481;
+   transition: 0.5s;
+}
+
+.login a:hover::after{
+   width: 100%;
+}
+
 .logo{
    display: flex;
    justify-content: center;
    align-items: center;
    padding: 5rem 0;
    gap: 2rem;
-   filter: drop-shadow(0 0 0.2rem black);
+   filter: drop-shadow(0 0 0.1rem black);
 }
 
 .logo img{
@@ -141,6 +169,12 @@ footer img{
    color: #F7F481;
    filter: drop-shadow(0 0rem 0.01rem #F7F481);
 }
+
+
+
+
+
+
 
 
 
