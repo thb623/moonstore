@@ -1,0 +1,135 @@
+body{
+   background-color: rgb(12, 12, 12);
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+}
+
+h1, h2, h3, p{
+   margin: 0px;
+}
+
+img, embed{
+   width: 100%;
+   display: block;
+}
+
+li{
+   list-style: none;
+}
+
+h1 {
+   color: #ffffff;
+   font-size: 8rem;
+   filter: drop-shadow(0 0 0.2rem #5ACBFF);
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5rem 0;
+   gap: 2rem;
+   margin-left: 12rem;
+   filter: drop-shadow(0 0 0.2rem #5ACBFF);
+}
+
+.logo img{
+   width: 250px;
+}
+
+
+.menu-itens{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 4rem;
+}
+
+.menu-itens a{
+   padding: 1rem 0;
+   color: rgb(255, 255, 255);
+   font-size: 2rem;
+   transition: 0.3s;
+}
+
+.menu-itens a::after{
+   content: "";
+   width: 0px;
+   height: 2px;
+   position: relative;
+   display: block;
+   background: #5ACBFF;
+   transition: 0.5s;
+}
+
+.menu-itens a:hover::after{
+   width: 101%;
+}
+
+.fundo{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   place-items: center;
+   gap: 10rem 4rem;
+   padding: 10rem 0;
+}
+
+.fundo img{
+   object-fit: cover;
+   object-position: top right;
+   width: 800px;
+   border-radius: 2rem;
+   box-shadow: 0px 0px 10px #5ACBFF;
+}
+
+.fundo img:hover{
+   box-shadow: 0px 0px 50px #5ACBFF;
+   transition: 0.5s;
+}
+
+.contatos{
+   display: flex;
+   gap: 5rem;
+   justify-content: center;
+   padding: 5rem 0;
+}
+
+.contatos a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.2rem;
+   font-size: 1.3rem;
+   transition: 0.3s;
+}
+
+footer img{
+   width: 2rem;
+   background: white;
+   border-radius: 2rem;
+}
+
+.contatos a:hover{
+   color: #5ACBFF;
+   filter: drop-shadow(0 0.1rem 0.2rem #5ACBFF);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
