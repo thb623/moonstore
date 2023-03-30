@@ -79,6 +79,7 @@ a {
    padding: 10rem 0;
 }
 
+
 .fundo img{
    object-fit: cover;
    object-position: top right;
@@ -106,12 +107,15 @@ a {
    gap: 0.2rem;
    font-size: 1.3rem;
    transition: 0.3s;
+   color: black;
+}
+
+footer{
+   background: white;
 }
 
 footer img{
    width: 2rem;
-   background: white;
-   border-radius: 2rem;
 }
 
 .contatos a:hover{
