@@ -1,6 +1,6 @@
 :root{
-   --shadow: #5ACBFF;
-   --azul-claro:#5ACBFF;
+   --shadow: #F7F481;
+   --amarelo-claro:#F7F481;
    --branco: white;
    --preto: black;
    --body-background: rgb(12, 12, 12);
@@ -10,7 +10,7 @@
 
 
 body{
-   background-color: var(--body-background);
+   background-color: white;
    font-family: Arial, Helvetica, sans-serif;
    margin: 0px;
 }
@@ -29,14 +29,22 @@ li{
 }
 
 h1 {
-   color: var(--branco);
+   color: white;
    font-size: 8rem;
-   filter: drop-shadow(0 0 0.2rem var(--shadow));
+   animation: backInDown;
+   animation-duration: 2s;
 }
 
 a {
    text-decoration: none;
    color: var(--branco);
+}
+
+.menu{
+   background-image: url(/MoonStore/Img/978022.png);
+   padding: 18rem;
+   animation: backInUp;
+   animation-duration: 1s;
 }
 
 .logo{
@@ -45,8 +53,7 @@ a {
    align-items: center;
    padding: 5rem 0;
    gap: 2rem;
-   margin-left: 12rem;
-   filter: drop-shadow(0 0 0.2rem var(--shadow));
+   filter: drop-shadow(0 0 0.2rem black);
 }
 
 .logo img{
@@ -66,6 +73,7 @@ a {
    color: var(--branco);
    font-size: 2rem;
    transition: 0.3s;
+   filter: drop-shadow(0 0 0.1rem black);
 }
 
 .menu-itens a::after{
@@ -74,7 +82,7 @@ a {
    height: 2px;
    position: relative;
    display: block;
-   background: var(--azul-claro);
+   background: #F7F481;
    transition: 0.5s;
 }
 
@@ -96,11 +104,11 @@ a {
    object-position: top right;
    width: 800px;
    border-radius: 2rem;
-   box-shadow: 0px 0px 10px var(--shadow);
+   box-shadow: 0px 0px 20px #F7F481;
 }
 
 .fundo img:hover{
-   box-shadow: 0px 0px 50px var(--shadow);
+   box-shadow: 0px 0px 50px #F7F481;
    transition: 0.5s;
 }
 
@@ -122,7 +130,7 @@ a {
 }
 
 footer{
-   background: var(--branco);
+   background: rgb(224, 224, 224);
 }
 
 footer img{
@@ -130,39 +138,9 @@ footer img{
 }
 
 .contatos a:hover{
-   color: var(--azul-claro);
-   filter: drop-shadow(0 0.1rem 0.2rem var(--shadow));
+   color: #F7F481;
+   filter: drop-shadow(0 0rem 0.01rem #F7F481);
 }
-
-
-
-
-
-@media (prefers-color-scheme: light){
-   p{
-    color: var(--modo-claro-letra);
-   }
-   body{
-    background: var(--modo-claro-background);
-   }
-   a{
-    color: var(--modo-claro-letra)
-   }
-   .menu-itens a{
-    color: var(--modo-claro-letra);
-   }
-   h1{
-    color: var(--modo-claro-letra);
-   }
-   .contatos a{
-    color: var(--modo-claro-letra);
-   }
-   footer{
-    background: rgb(224, 224, 224);
-   }
- }
-
-
 
 
 
