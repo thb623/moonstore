@@ -51,7 +51,7 @@ a {
 .login{
    display: flex;
    justify-content: flex-end;
-   background: #ffffff;
+   background: #F7F7F7;
    text-align: right;
    padding: 1rem;
 }
@@ -59,7 +59,7 @@ a {
 .login a{
    font-size: 1.5rem;
    margin: 1rem;
-   filter: drop-shadow(0 0 0.1rem black);
+   color: #3a3a3a;
 }
 
 .login a::after{
@@ -68,7 +68,7 @@ a {
    height: 2px;
    position: relative;
    display: block;
-   background: #F7F481;
+   background: #F0B2BF;
    transition: 0.5s;
 }
 
@@ -111,7 +111,7 @@ a {
    height: 2px;
    position: relative;
    display: block;
-   background: #F7F481;
+   background: #F0B2BF;
    transition: 0.5s;
 }
 
