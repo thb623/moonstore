@@ -11,7 +11,7 @@
 
 body{
    background-color: white;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: "Nanum Gothic",Arial, Helvetica, sans-serif;
    margin: 0px;
 }
 
@@ -41,7 +41,8 @@ a {
 }
 
 .menu{
-   background-image: url(/MoonStore/Img/978022.png);
+   background-image: url(/MoonStore/Img/288991585_1215573832535911_8840385145331829242_n.jpg);
+   background-repeat: no-repeat;
    padding: 18rem;
    animation: backInUp;
    animation-duration: 1s;
@@ -50,9 +51,9 @@ a {
 .login{
    display: flex;
    justify-content: flex-end;
-   background: #5F7FD9;
+   background: #ffffff;
    text-align: right;
-   padding: 3rem;
+   padding: 1rem;
 }
 
 .login a{
@@ -130,8 +131,10 @@ a {
 .fundo img{
    object-fit: cover;
    object-position: top right;
-   width: 800px;
+   width: 1000px 800px;
    border-radius: 2rem;
+   margin-top: 120px;
+   margin-right: 50px;
    box-shadow: 0px 0px 20px #F7F481;
 }
 
@@ -170,6 +173,56 @@ footer img{
    filter: drop-shadow(0 0rem 0.01rem #F7F481);
 }
 
+.texto-home{
+   display: grid;
+   font-family: "nanum gothic";
+   grid-column: 1;
+   text-align: right;
+   align-self: start;
+   padding: 2rem;
+}
+.texto-home h2{
+   font-size: 4rem;
+   color: #3a3a3a;
+}
+
+.texto-home p{
+   font-size: 3rem;
+   color: #3a3a3a;
+   margin-top: 5rem;
+}
+
+
+.texto-home span{
+   font-size: 3rem;
+   color: #CEA65C;
+}
+
+.section-bg{
+   background-color: #F7F7F7;
+   box-shadow: 0 -300px 0 #F7F7F7;
+}
+
+.section img{
+   width: 300px;
+   border-radius: 1rem;
+   box-shadow: 0 0 1px rgb(44, 44, 44);
+   border: 1px solid #f0f0f0;
+   filter: drop-shadow(0 0 1rem rgb(214, 214, 214));
+   transition: 0.3s;
+}
+
+.section img:hover{
+   filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.397));
+}
+
+.section{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 2rem;
+   justify-items: center;
+   padding: 10rem;
+}
 
 
 
